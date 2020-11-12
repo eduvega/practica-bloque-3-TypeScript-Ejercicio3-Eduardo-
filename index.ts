@@ -30,5 +30,5 @@ function getData<T>(arg: T): void {
 }
 
 let a = getData<String>(user.name);
-let b = getData<number>(user.age);
+/* let b = getData<number>(user.age); */
 let c = getData<number>(user.phone);
