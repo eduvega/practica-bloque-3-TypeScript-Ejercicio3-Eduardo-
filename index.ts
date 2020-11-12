@@ -18,19 +18,17 @@ user = {
 };
 
 function isNumber<T>(arg: T): boolean {
-  return typeof arg ==="number";
+  return typeof arg === "number";
 }
 
 function getData<T>(arg: T): void {
   if (isNumber(arg)) {
     console.log("El telefono: " + arg);
-  }else{
+  } else {
     console.log("El nombre es: " + arg);
   }
-
 }
 
-/* let a = getData<String>(user.name);
+let a = getData<String>(user.name);
 let b = getData<number>(user.age);
 let c = getData<number>(user.phone);
- */
